@@ -79,3 +79,7 @@ The following words cannot be used as variables or function names
 - `type` 
 - `record` 
 - `datatype`
+
+
+## [Operators](operators/operators.md)
+
