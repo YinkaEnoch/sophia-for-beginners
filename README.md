@@ -52,3 +52,30 @@ let userAddress: address = Call.caller
 
 let name: string = 'YinkaEnoch'
 ```
+
+
+Reserved Keywords
+==
+
+The following words cannot be used as variables or function names
+
+- `contract` 
+- `elif` 
+- `else` 
+- `entrypoint` 
+- `false` 
+- `function` 
+- `if` 
+- `import` 
+- `include` 
+- `let` 
+- `mod` 
+- `namespace`
+- `private` 
+- `payable` 
+- `stateful` 
+- `switch` 
+- `true` 
+- `type` 
+- `record` 
+- `datatype`
