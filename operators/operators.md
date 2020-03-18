@@ -9,8 +9,8 @@ Operator | Description
 \* | Multiplication (x * y)
 / | Division (x / y)
 mod | Remainder (x mod y)
-+ | Addition (x + y)
-- | Subtraction (x -y)
+\+ | Addition (x + y)
+\- | Subtraction (x -y)
 
 #### Example
 ```javascript
