@@ -8,6 +8,7 @@ Sophia is a functional language used in writing smart contracts on the aeternity
 
 [Sophia Layout Blocks](https://github.com/aeternity/aesophia/blob/lima/docs/sophia.md#layout-blocks)
 
+
 Comment
 ==
 
@@ -36,4 +37,18 @@ This example uses a multi-line comment
 
 entrypoint nameExists(name: string) : bool =
     Map.member(name, state.hamsters)
+```
+
+
+Variables
+==
+
+Variables are declared in Sophia by the keyword `let`
+
+```sophia
+let x: int = 4
+
+let userAddress: address = Call.caller
+
+let name: string = 'YinkaEnoch'
 ```
